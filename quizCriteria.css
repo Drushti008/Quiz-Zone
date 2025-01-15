@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #d8e2dc;
+}
+
+.container{
+    background-color: #d8e2dc;
+    height: 100vh;
+
+}
+
+
+.head{
+    padding-top: 4rem;
+}
+
+h1{
+    
+    color: #8D0B41;
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.criteria {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+input[type="radio"] {
+   height: 1.3rem;
+   width: 1.3rem;
+   margin-top: 2rem;
+   margin-left: 3.5rem;
+   cursor: pointer;
+   appearance: none; 
+   border: 2px solid #ccc;
+   border-radius: 50%; 
+   outline: none;
+   transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="radio"]:checked {
+   background-color: #11c986; /* Changes color when checked */
+   border-color: #007bff;
+}
+
+input[type="radio"]:hover {
+   border-color: #0056b3; /* Darker shade on hover */
+}
+
+input[type="radio"]:focus {
+   outline: 2px solid #0056b3; /* Adds a focus ring */
+}
