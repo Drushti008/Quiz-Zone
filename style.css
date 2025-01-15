@@ -4,43 +4,35 @@
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    background-color:#739072 ;
+    background-color:#d8e2dc ;
 }
 
-.box{
-    height: 55vh;
-    width: 90vh;
-    background-color: #D2E3C8;
-    border-radius: 1.3rem;
-    box-shadow: 0 4px 8px #111a0f;
-}
-
-.head{
-    margin-top: 4rem;
-    color: white;
-    color: #8D0B41;
+h1{
+   margin-top: 5rem;
+   color: #8D0B41;
+   font-size: 3rem;
 }
 
 .msg{
     text-align: center;
-    margin-top: 3rem;
-    font-size:1.5rem ;
+    margin-top: 5rem;
+    font-size:2rem ;
 }
 
 .btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 button{
     font-size: 1.3rem;
-    padding: 5px;
-    background-color: #355d26;
+    padding: 10px;
+    background-color: #215c0c;
     color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px rgb(1, 23, 1);
+    
 }
