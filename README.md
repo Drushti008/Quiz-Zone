@@ -10,3 +10,7 @@
 
 - Randomized questions for every session.
 
+## Technologies Used
+- **HTML**
+- **CSS**
+- **JS**
