@@ -8,3 +8,11 @@
 - Multiple quiz categories (e.g., Artificial Intelligence, Machine Learning, Internet of Things, etc.).
 - Tracks and displays the score at the end.
 - Randomized questions for every session.
+
+---
+
+## Technologies Used
+- **HTML**
+- **CSS**
+- **JS**
+
